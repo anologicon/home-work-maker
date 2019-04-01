@@ -1,0 +1,11 @@
+{
+  "name": "homeworkermaker",
+  "version": "1.0.0",
+  "description": "The day when i not do the home work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
