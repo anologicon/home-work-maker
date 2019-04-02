@@ -1,14 +1,14 @@
-const readline = require('readline-sync');
+const robos = {
+    input: require('./robos/input.js'),
+    texto: require('./robos/texto.js')
+}
 
-function start() {
+async function start() {
     const busca = {}
 
-    busca.termo = fetchTerm();
+    robos.input(busca);
+    await robos.texto(busca);
 
-    function fetchTerm() {
-        return readline.question('Qual o tema do seu trabalho:');
-    }
-    
     console.log(busca);
 }
 
