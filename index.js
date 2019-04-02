@@ -1,15 +1,15 @@
 const readline = require('readline-sync');
 
 function start() {
-    const content = {}
+    const busca = {}
 
-    content.searchTerm = fetchTerm();
+    busca.termo = fetchTerm();
 
     function fetchTerm() {
         return readline.question('Qual o tema do seu trabalho:');
     }
     
-    console.log(content);
+    console.log(busca);
 }
 
 start();
